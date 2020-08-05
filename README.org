@@ -236,14 +236,14 @@ fails (to clean or reinstall) or to be able to reconfigure.
 
 ** With snap
 
-Snap needs to be [[https://snapcraft.io/docs/installing-snap-on-ubuntu][installed]] and then you can use the Emacs [[https://snapcraft.io/emacs][snap]]. Install it with:
+Snap needs to be [[https://snapcraft.io/docs/installing-snap-on-ubuntu][installed]] and then you can use the Emacs [[https://snapcraft.io/emacs][snap]].
+
+Install the version you want with ([[https://snapcraft.io/emacs/embedded?button=black&channels=true][current versions]] for each):
 
 | latest/stable    | ~sudo snap install emacs --classic~             |
 | latest/candidate | ~sudo snap install emacs --candidate --classic~ |
 | latest/beta      | ~sudo snap install emacs --beta --classic~      |
 | latest/edge      | ~sudo snap install emacs --edge --classic~      |
-
-#+HTML: <iframe src="https://snapcraft.io/emacs/embedded?button=black&channels=true" frameborder="0" width="100%" height="440px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>
 
 * Run Emacs in terminal
 

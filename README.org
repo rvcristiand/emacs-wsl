@@ -196,7 +196,12 @@ Restart WSL.
 
 * Install Emacs
 
-This installs all dependencies for Emacs and then installs Emacs 26.3:
+You can install Emacs on the command line or when using the Ubuntu distribution
+with snap.
+
+** On Command line
+
+Install the dependencies for Emacs and then install Emacs 26.3:
 
 #+BEGIN_SRC shell
   ## install dependencies (got those from all over the net)
@@ -228,6 +233,17 @@ See[[file:emacs-27.sh][ emacs-27.sh]] to install Emacs 27 instead.
 
 Keeps the directory where emacs was extracted or cloned to in case any step
 fails (to clean or reinstall) or to be able to reconfigure.
+
+** With snap
+
+Snap needs to be [[https://snapcraft.io/docs/installing-snap-on-ubuntu][installed]] and then you can use the Emacs [[https://snapcraft.io/emacs][snap]]. Install it with:
+
+| latest/stable    | ~sudo snap install emacs --classic~             |
+| latest/candidate | ~sudo snap install emacs --candidate --classic~ |
+| latest/beta      | ~sudo snap install emacs --beta --classic~      |
+| latest/edge      | ~sudo snap install emacs --edge --classic~      |
+
+@@html:<iframe src="https://snapcraft.io/emacs/embedded?button=black&channels=true" frameborder="0" width="100%" height="440px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>@@
 
 * Run Emacs in terminal
 

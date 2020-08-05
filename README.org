@@ -243,7 +243,7 @@ Snap needs to be [[https://snapcraft.io/docs/installing-snap-on-ubuntu][installe
 | latest/beta      | ~sudo snap install emacs --beta --classic~      |
 | latest/edge      | ~sudo snap install emacs --edge --classic~      |
 
-@@html:<iframe src="https://snapcraft.io/emacs/embedded?button=black&channels=true" frameborder="0" width="100%" height="440px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>@@
+#+HTML: <iframe src="https://snapcraft.io/emacs/embedded?button=black&channels=true" frameborder="0" width="100%" height="440px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>
 
 * Run Emacs in terminal
 
